@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  min-height: 100%;
+  background-color: #f8fafc;
+  margin: 0;
+  color: #0f172a;
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+}
+
+body {
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.splash-logo {
+  text-align: center;
+  margin-top: 3rem;
+}
